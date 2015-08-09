@@ -13,6 +13,3 @@ router.get('/', restrict, function(req, res, next) {
   };
   res.render('home/index', vm);
 });
-
-module.exports = router;
-gvyhyvfgh
