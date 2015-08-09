@@ -5,7 +5,7 @@ var restrict = require('../auth/restrict');
 router.get('/', restrict, function(req, res, next) {
   if (!req.isAuthenticated()) {
     return res.redirect('/');
-  }
+  } kjhk gj
   var vm = {
     title: 'Home',
     orderId: req.session.orderId,
