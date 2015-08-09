@@ -8,13 +8,7 @@ router.get('/', restrict, function(req, res, next) {
     return res.redirect('/');
   } kjhk gj
   var vm = {
-    title: 'Home',
-    orderId: req.session.orderId,
-    firstName: req.user ? req.user.firstName : null
-  };
-  res.render('home/index', vm);
-});
-
+    title: 'Home'
 module.exports = router;
 
 hello
